@@ -6,7 +6,9 @@
 
 @media (min-width: 1400px) {
     .container {
-        max-width: 1320px;
+        max-width: 1380px;
+    }section.skils-area .container {
+        max-width: 100%;
     }
     .single_project img {
         height: 210px;
@@ -82,6 +84,25 @@
     }
     .info-text h4 {
         font-size: 16px;
+    }.contact-form button {
+        padding: 18px 54px;
+        font-size: 18px;
+    }.skill__content-slider.d-flex {
+        flex-wrap: wrap;
+    }   .skill__content-slider li {
+        margin-right: 1.5rem;
+        margin-bottom: 1.5rem;
+    }.skill__content-slider.d-flex {
+        flex-wrap: wrap;
+        overflow: hidden;
+    }.contact-information.position-relative {
+        margin-left: 0;
+    }.hobbies-content h2, .education-content h2 {
+        font-size: 23px;
+    }.social-link-inline li {
+        margin-right: 1px;
+    }.social-link {
+        margin-top: 1.6rem;
     }
 }
 
@@ -105,7 +126,6 @@
     }
     .banner-text {
         padding-left: 0px;
-        text-align: center;
     }
     /*about css*/
     .about-img.w-img {
@@ -189,7 +209,7 @@
     }
     .banner-text {
         padding-left: 0px;
-        padding: 100px 0 100px 0;
+        padding: 70px 0 0px 0;
     }
     .submit-btn {
         margin-top: 0;
@@ -207,13 +227,70 @@
     .fact-item {
         margin-bottom: 3rem;
     }
-    .contact-img {
+   /*  .contact-img {
         text-align: center;
     }
     .contact-form-item i {
         width: 8%;
+    } */.contact-information {
+        padding: 40px 15px;
+    }
+    .contact-information.position-relative {
+        margin-left: 0px;
+    }
+
+    .contact-information li figure {
+        position: relative;
+        margin-bottom: 20px !important;
+    }.contact-information li figure {
+        width: 50px;
+        height: 50px;
+    }.contact-information-content {
+        margin-left: 0;
+    }.contact-form button {
+        margin-bottom: 30px;
+    }.skill__content-slider.d-flex.m-skil__content {
+        margin-top: 0;
+    }
+    section#portfolio{
+        padding: 11rem 0 3rem !important;
+    }
+    section#services {
+        padding: 11rem 0 3rem !important;
+    }
+    section#about{
+        padding: 11rem 0 3rem !important;
+    }
+
+    .services-item {
+        margin-bottom: 25px;
+    }
+
+    .cv-boxed_list .item {
+        padding: 42px 26px 43px;
+    }.item h3 {
+        font-size: 20px;
+    }.cv-boxed_list .item_top h5{
+        font-size: 14px;
+    }.cv-boxed_list .item_top span {
+        margin-left: 0;
+    }.cv-boxed_list .item_top {
+        display: block;
+    }.item {
+        margin-bottom: 30px;
+    }   .skill__content-slider li {
+        margin-right: 1.5rem;
+        margin-bottom: 1.5rem;
+    }.skill__content-slider.d-flex {
+        flex-wrap: wrap;
+        overflow: hidden;
+    }.contact-information.position-relative {
+        margin-left: 0;
+    }.toogle-dark {
+        display: none;
     }
 }
+
 
 
 /* Small devices 576 - 767 */
@@ -221,6 +298,9 @@
 @media (max-width: 767px) {
     section {
         padding: 3.5rem 0 !important;
+    }
+    section.feauturehomepage-section.pt-100.pb-115.text-align {
+        padding: 200px 0 0px 0!important;
     }
     .section-title.mb-80 {
         margin-bottom: 60px;
@@ -239,9 +319,6 @@
         padding-top: 50px;
     }
     /*slider*/
-    .slider-img {
-        margin-bottom: 50px;
-    }
     .banner-text h3 {
         font-size: 3rem;
     }
@@ -260,11 +337,10 @@
     }
     .banner-text {
         padding-left: 0px;
-        text-align: center;
     }
     /*about css*/
     .about-img.w-img {
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
     /*skil css*/
     .skills-content {
@@ -321,23 +397,55 @@
     .portfolio-section .mt-40 {
         margin-top: -3px;
     }
-    .banner-text h4 {
-        display: none;
-    }
-    .banner-text h2 {
-        display: none;
-    }
+  
     .r-mt-47-mobile {
         margin-top: 47px;
     }
     .responsive-mt-20 {
         margin-top: 0px;
     }
-    section#services {
-        margin-bottom: 100px;
+
+
+    
+    .contact-information {
+        padding: 40px 35px;
+    }.contact-information ul li:first-child {
+        padding: 0 0;
+    }.contact-information ul li {
+        width: 100%;
+        padding: 0 0;
+        margin-bottom: 20px;
     }
-    .contact-form-item i {
-        width: 9%;
+
+    .footer-left-content, .footer-middle-content,.footer-right-content{
+        padding: 1.25rem;
+    }
+    .slider-img {
+        margin-bottom: 50px;
+        display: none;
+    }.skill__content-slider li {
+        margin-right: 1.5rem;
+        margin-bottom: 1.5rem;
+    }.skill__content-slider.d-flex {
+        flex-wrap: wrap;
+        overflow: hidden;
+    }.slider-area {
+        padding: 5rem 0 0rem 0!important;
+    }
+    section#services {
+        margin-bottom: 0;
+    }.social-link {
+        margin-top: 1.5rem;
+    }.social-link-inline li a {
+
+        width: 43px;
+        height: 43px;
+
+    }
+    .social-link-inline li {
+        margin-bottom: 7px;
+    }.social-link-inline {
+        margin-bottom: 0;
     }
 }
 
@@ -351,6 +459,11 @@
     section {
         padding: 3rem 0 !important;
     }
+    .w-slider {
+        width: 270px;
+        height: 339px;
+
+    }
     .paragraph strong {
         font-size: 1.6rem;
     }
@@ -363,6 +476,10 @@
     .testimonial-content p {
         font-size: 1.4rem;
     }
+    .experts-item {
+        margin: auto;
+        text-align: center;
+    }
     /*section title*/
     .section-title p {
         font-size: 1.4rem;
@@ -373,7 +490,7 @@
     }
     .banner-text p {
         padding-right: 0px;
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
     .container {
         padding-right: 1.5rem !important;
@@ -430,13 +547,24 @@
         font-size: 1.9rem;
         line-height: 1.4;
     }
-    .contact-form-item i {
-        width: 15%;
-    }
-    .contact-img img {
+
+    /*--*/
+    .contact-information {
+        padding: 28px 15px;
+    }.contact-information ul li {
+        margin-bottom: 15px;
+    }.contact-form button {
         width: 100%;
+    } .contact-form button, .contact a {
+        padding: 10px 39px;
+        font-size: 14px;
+    }.services-item {
+        margin-bottom: 25px;
     }
 }
+
+
+
 
 
 /* Small devices 0 - 575 */

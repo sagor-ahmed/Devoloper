@@ -1,20 +1,5 @@
 (function($) {
 
-    var typed = new Typed('.type', {
-        strings: [
-            'Freelancer',
-            'Front End Devoloper',
-            'Web Devoloper',
-            'Wordpress Expert',
-
-
-        ],
-
-        typeSpeed: 110,
-        loop: true,
-        showCursor: false,
-    });
-
     ////////////////////////////////////////////////////
 
     // . Data-Background Js
@@ -205,37 +190,6 @@
 
     });
 
-
-    ////////////////////////////////////////////////////
-
-    //  Sticky Header Js
-
-    $(window).on('scroll', function() {
-
-        var scroll = $(window).scrollTop();
-
-        if (scroll < 100) {
-
-            $("#header-sticky").removeClass("sticky");
-
-        } else {
-
-            $("#header-sticky").addClass("sticky");
-
-        }
-
-    });
-
-
-    /* one Page Nav */
-    var top_offset = $('.header-area').height() - 10;
-    $('.main-menu nav ul').onePageNav({
-        currentClass: "active",
-        scrollOffset: top_offset,
-    });
-
-
-
     ////////////////////////////////////////////////////
 
     //  Counterup Js
@@ -246,22 +200,16 @@
     });
 
 
+
 })(jQuery);
 
 
 
 
-const navToggle = document.querySelector(".nav-toggle");
-const links = document.querySelector(".links");
+const chk = document.getElementById('chk');
 
-navToggle.addEventListener("click", function() {
-    // console.log(links.classList);
-    // console.log(links.classList.contains("random"));
-    // console.log(links.classList.contains("links"));
-    // if (links.classList.contains("show-links")) {
-    //   links.classList.remove("show-links");
-    // } else {
-    //   links.classList.add("show-links");
-    // }
-    links.classList.toggle("show-links");
+chk.addEventListener('change', () => {
+	document.body.classList.toggle('dark');
 });
+
+
